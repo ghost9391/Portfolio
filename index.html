@@ -111,7 +111,7 @@
             transform: translateY(-2px);
         }
 
-        /* Transformation Section */
+        /* Mascot Transformation Section */
         .mascot-container {
             display: flex;
             flex-direction: column;
@@ -136,7 +136,6 @@
             transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        /* Realistic Floating Cookie Effects */
         .cookie-svg {
             opacity: 1;
             transform: scale(1);
@@ -168,7 +167,6 @@
             opacity: 0;
         }
 
-        /* Hover Transformation Effects */
         .transformation-box:hover .cookie-svg {
             opacity: 0;
             transform: translateY(20px) scale(0.8) rotate(-10deg);
@@ -292,6 +290,7 @@
             font-size: 1.1rem;
             transition: all 0.3s ease;
             box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            display: inline-block;
         }
 
         .btn-primary {
@@ -314,13 +313,22 @@
             box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
         }
 
-        .resume-viewer {
-            width: 100%;
-            height: 600px;
+        /* Resume Section Formatting */
+        .resume-paper {
+            background: #161b22;
             border: 1px solid rgba(0, 240, 255, 0.3);
-            border-radius: 8px;
+            border-radius: 12px;
+            padding: 30px;
             margin-top: 20px;
-            background: #fff;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+
+        .resume-paper h3 {
+            color: #00f0ff;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 5px;
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
 
         footer {
@@ -422,19 +430,62 @@
 
         <section class="rgb-border">
             <h2>>_ Objective & Summary</h2>
-            <p>I am Shyam Chauhan, a driven High School Computer Science student seeking a summer technology internship. I bring hands-on experience in software development, algorithmic problem-solving, and hardware control systems. I am eager to apply my technical skills to real-world software projects, contribute to collaborative development teams, and gain meaningful industry experience.</p>
+            <p>I am Shyam Chauhan, a driven High School Computer Science student seeking opportunities in software engineering, computer science, and AI[cite: 4]. I bring hands-on experience in software development, algorithmic problem-solving, and hardware control systems[cite: 11, 13]. I am eager to apply my technical skills to real-world software projects[cite: 5, 18], contribute to collaborative development teams, and gain meaningful industry experience.</p>
             
             <div class="btn-group">
                 <a href="https://github.com" target="_blank" class="btn btn-primary">My GitHub Profile</a>
-                <a href="Shyam_Chauhan_Resume.pdf" download class="btn btn-primary">Download Resume (PDF)</a>
+                <a href="Shyam_Chauhan_Resume.pdf" download="Shyam_Chauhan_Resume.pdf" type="application/pdf" class="btn btn-primary">📥 Download Resume (PDF)</a>
                 <a href="https://www.linkedin.com/in/shyam-chauhan-352308429/" target="_blank" class="btn btn-secondary">LinkedIn</a>
             </div>
         </section>
 
         <section class="rgb-border">
             <h2>>_ Official Resume Document</h2>
-            <p style="margin-bottom: 15px;">Below is the attached PDF resume tailored for computer science summer internship applications:</p>
-            <iframe class="resume-viewer" src="Shyam_Chauhan_Resume.pdf" title="Shyam Chauhan Resume PDF"></iframe>
+            <p style="margin-bottom: 15px;">Tailored for computer science summer internship applications:</p>
+
+            <div class="resume-paper">
+                <h2 style="font-size: 2.2rem; color: #fff; border-bottom: none; padding-bottom: 0;">SHYAM CHAUHAN</h2>
+                <p style="color: #a0aec0; margin-bottom: 15px;">Vernon Hills, IL | Email: <a href="mailto:shyam.chauhan@vhhscougars.org" style="color: #00f0ff;">shyam.chauhan@vhhscougars.org</a> | <a href="https://www.linkedin.com/in/shyam-chauhan-352308429/" target="_blank" style="color: #00f0ff;">LinkedIn</a></p>
+
+                <h3>OBJECTIVE</h3>
+                <p>Motivated high school student pursuing opportunities in software engineering, computer science, and AI[cite: 4]. Interested in building practical applications and using programming to solve real-world problems[cite: 5].</p>
+
+                <h3>EDUCATION</h3>
+                <p><strong>Vernon Hills High School</strong> - Vernon Hills, IL [cite: 7]</p>
+                <p>Expected Graduation: 2027 | Weighted GPA: 3.8 [cite: 8]</p>
+                <p><em>Relevant Coursework:</em> iOS App Development, Computer Science Honors, AP Computer Science A, AP Precalculus [cite: 9]</p>
+
+                <h3>TECHNICAL SKILLS</h3>
+                <ul>
+                    <li><strong>Programming:</strong> Java, Kotlin, C/C++, Arduino [cite: 11]</li>
+                    <li><strong>Development:</strong> Android Studio, iOS App Development, AI Application Development [cite: 12]</li>
+                    <li><strong>Additional:</strong> Robotics, sensors, autonomous systems, software development [cite: 13]</li>
+                </ul>
+
+                <h3>PROJECTS</h3>
+                <p><strong>Wizil AI Android Assistant</strong> [cite: 15]</p>
+                <ul>
+                    <li>Developed an AI-powered Android assistant designed to help users interact with information and perform useful tasks[cite: 16].</li>
+                    <li>Worked with application logic, user interaction, and AI-assisted functionality[cite: 17].</li>
+                    <li>Focused on creating a practical software project that combines mobile development and artificial intelligence[cite: 18].</li>
+                </ul>
+
+                <h3>ACHIEVEMENTS</h3>
+                <ul>
+                    <li>2nd Place Arduino Car Coding Competition, Abbott [cite: 20]</li>
+                </ul>
+
+                <h3>VOLUNTEER EXPERIENCE</h3>
+                <p><strong>Community Volunteer</strong> [cite: 22]</p>
+                <ul>
+                    <li>Completed approximately 100 hours of volunteer service at an old-age home[cite: 23].</li>
+                </ul>
+            </div>
+
+            <div class="btn-group" style="margin-top: 25px;">
+                <a href="Shyam_Chauhan_Resume.pdf" download="Shyam_Chauhan_Resume.pdf" class="btn btn-primary">📥 Download Resume PDF</a>
+                <a href="Shyam_Chauhan_Resume.pdf" target="_blank" class="btn btn-secondary">📄 Open PDF Directly</a>
+            </div>
         </section>
 
         <section>
@@ -442,22 +493,22 @@
             <div class="grid">
                 <div class="card">
                     <h3>Education & Coursework</h3>
-                    <p><strong>Vernon Hills High School</strong> (Expected Graduation: 2027)</p>
+                    <p><strong>Vernon Hills High School</strong> (Expected Graduation: 2027) [cite: 7, 8]</p>
                     <br>
-                    <p><strong>Relevant Coursework:</strong></p>
+                    <p><strong>Relevant Coursework:</strong> [cite: 9]</p>
                     <ul>
-                        <li>iOS App Development</li>
-                        <li>Computer Science Honors</li>
-                        <li>AP Computer Science A</li>
-                        <li>AP Precalculus</li>
+                        <li>iOS App Development [cite: 9]</li>
+                        <li>Computer Science Honors [cite: 9]</li>
+                        <li>AP Computer Science A [cite: 9]</li>
+                        <li>AP Precalculus [cite: 9]</li>
                     </ul>
                 </div>
                 <div class="card">
                     <h3>Skills & Competencies</h3>
                     <ul>
-                        <li><strong>Programming Languages:</strong> Java, Kotlin, C/C++, Arduino</li>
-                        <li><strong>Development & Tools:</strong> Android Studio, iOS App Development, AI Application Development</li>
-                        <li><strong>Concepts & Soft Skills:</strong> Robotics, Sensors, Autonomous Systems, Software Development</li>
+                        <li><strong>Programming Languages:</strong> Java, Kotlin, C/C++, Arduino [cite: 11]</li>
+                        <li><strong>Development & Tools:</strong> Android Studio, iOS App Development, AI Application Development [cite: 12]</li>
+                        <li><strong>Concepts & Soft Skills:</strong> Robotics, Sensors, Autonomous Systems, Software Development [cite: 13]</li>
                     </ul>
                 </div>
             </div>
@@ -468,14 +519,14 @@
             <div class="grid">
                 <div class="card">
                     <h3>🏆 2nd Place Winner</h3>
-                    <p><strong>Arduino Car Coding Competition (Abbott)</strong></p>
-                    <p>Engineered navigation control algorithms and sensor integration logic for an autonomous vehicle, securing 2nd place overall for speed, real-time processing, and precision trajectory mapping.</p>
+                    <p><strong>Arduino Car Coding Competition (Abbott)</strong> [cite: 20]</p>
+                    <p>Engineered navigation control algorithms and sensor integration logic for an autonomous vehicle, securing 2nd place overall for speed, real-time processing, and precision trajectory mapping[cite: 20].</p>
                 </div>
                 <div class="card">
                     <h3>Projects & Leadership</h3>
                     <ul>
-                        <li><strong>Wizil AI Android Assistant:</strong> Built an AI-powered Android assistant combining mobile application development and artificial intelligence logic.</li>
-                        <li><strong>Community Volunteer:</strong> Completed ~100 hours of volunteer service supporting residents at a local senior living community.</li>
+                        <li><strong>Wizil AI Android Assistant:</strong> Built an AI-powered Android assistant combining mobile application development and artificial intelligence logic[cite: 15, 16, 18].</li>
+                        <li><strong>Community Volunteer:</strong> Completed ~100 hours of volunteer service supporting residents at a local senior living community[cite: 22, 23].</li>
                     </ul>
                 </div>
             </div>
@@ -487,8 +538,8 @@
                 <div class="card">
                     <h3>Awards & Honors</h3>
                     <ul>
-                        <li>Weighted GPA: 3.8</li>
-                        <li>2nd Place — Arduino Car Coding Competition, Abbott</li>
+                        <li>Weighted GPA: 3.8 [cite: 8]</li>
+                        <li>2nd Place — Arduino Car Coding Competition, Abbott [cite: 20]</li>
                     </ul>
                 </div>
                 <div class="card">
@@ -503,9 +554,9 @@
     <footer>
         <p>&copy; 2026 Shyam Chauhan | High School CS Resume & Portfolio</p>
         <div class="contact-links">
-            <a href="mailto:shyam.chauhan@vhhscougars.org">Email</a> |
+            <a href="mailto:shyam.chauhan@vhhscougars.org">Email</a> | [cite: 3]
             <a href="https://github.com" target="_blank">GitHub</a> |
-            <a href="https://www.linkedin.com/in/shyam-chauhan-352308429/" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/shyam-chauhan-352308429/" target="_blank">LinkedIn</a> [cite: 3]
         </div>
     </footer>
 
